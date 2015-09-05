@@ -1,0 +1,43 @@
+@media screen and (min-width: 660px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  #waar-en-wanneer, #inschrijven {
+    float: left;
+    width: 48.5%;
+  }
+
+  #waar-en-wanneer {
+    margin-right: 1.5%;
+  }
+
+  #inschrijven {
+    margin-left: 1.5%;
+  }
+
+  .main-section {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  h1{
+    font-size: 3.5em;
+  }
+
+  h2, h3, p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .secondary-section{
+    float: left;
+    width: 31%;
+  }
+
+  .secondary-section:nth-child(2n) {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+  }
+}
